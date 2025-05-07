@@ -1,0 +1,36 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "demo_taxi_pass",
+  "expectations": [
+    {
+      "expectation_context": {
+        "description": null
+      },
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "overall",
+        "max_value": 100,
+        "min_value": 0
+      },
+      "meta": {}
+    },
+    {
+      "expectation_context": {
+        "description": null
+      },
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "player_id"
+      },
+      "meta": {}
+
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "great_expectations_version": "0.16.13"
+   }
+}
+  
+
+
